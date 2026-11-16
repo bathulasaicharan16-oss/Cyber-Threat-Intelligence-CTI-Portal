@@ -1,0 +1,23 @@
+{
+  "name": "cyber-threat-intelligence-portal",
+  "version": "1.0.0",
+  "description": "Cyber Threat Intelligence Portal - Software Engineering Project (BCS 502)",
+  "scripts": {
+    "start": "node server/src/server.js",
+    "test": "node server/test-server.js",
+    "server": "cd server && npm start",
+    "client": "cd client && npm run dev",
+    "build": "cd client && npm install && npm run build && cd ../server && npm install"
+  },
+  "keywords": [
+    "cyber-threat-intelligence",
+    "cti",
+    "cve",
+    "ioc",
+    "malware-analysis",
+    "mitre-attack",
+    "amity-university"
+  ],
+  "author": "B. Sai Charan & D. Ganesh Ravichandu",
+  "license": "ISC"
+}
